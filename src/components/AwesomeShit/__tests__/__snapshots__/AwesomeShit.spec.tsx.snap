@@ -20,16 +20,16 @@ ReactWrapper {
     "ref": null,
     "rendered": Object {
       "instance": <div>
-        Stupid component
+        Hello world!
       </div>,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "Stupid component",
+        "children": "Hello world!",
       },
       "ref": null,
       "rendered": Array [
-        "Stupid component",
+        "Hello world!",
       ],
       "type": "div",
     },
@@ -44,16 +44,16 @@ ReactWrapper {
       "ref": null,
       "rendered": Object {
         "instance": <div>
-          Stupid component
+          Hello world!
         </div>,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Stupid component",
+          "children": "Hello world!",
         },
         "ref": null,
         "rendered": Array [
-          "Stupid component",
+          "Hello world!",
         ],
         "type": "div",
       },
