@@ -7,5 +7,5 @@ dist/
 coverage/
 node_modules/
 .DS_Store
-demo/
+build/
 .cache/

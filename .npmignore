@@ -2,6 +2,7 @@
 .gitignore
 .idea
 src/
+build/
 demo/
 coverage/
 jest.config.js
@@ -9,3 +10,5 @@ rollup.config.js
 tslint.json
 tsconfig.json
 .cache/
+.travis.yml
+webpack.dev.config.js
