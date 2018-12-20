@@ -1,0 +1,11 @@
+.npmignore
+.gitignore
+.idea
+src/
+demo/
+coverage/
+jest.config.js
+rollup.config.js
+tslint.json
+tsconfig.json
+.cache/

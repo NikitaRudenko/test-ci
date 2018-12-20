@@ -1,0 +1,11 @@
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+dist/
+coverage/
+node_modules/
+.DS_Store
+demo/
+.cache/

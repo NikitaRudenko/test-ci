@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- '8'
+script:
+- npm test
+- npm run lint
+deploy:
+  provider: npm
+  email: ii.nrudenko@gmail.com
+  on:
+    tags: true
+  api_key:
+    secure: vVKnFxi0/2JfyJksPUoDOq/2XV7uYTS2sUkQHROiIeMNC7+kgVPq2IwCIyOmT7C+tQxVuJDDl4aKErWAEN7CtuecSN3vtCJrr9VWNKgIeMuuQqnHGBE2ZC1pWjRidKfZIELyw9cGoqCNiNvUC4O1reYy1msv8WQR/4zNiad3w/tQJ/n5mEABEPgSoajBVd9GrjPh8yWyil+GECG6vQIsKLXG3cAQ6hkymp6dOoDQOUba8egKNrns+24JoLt4MYv5IG67OJh6FENjdIjLboGxzPGXTOYo5sKLSvPCKdkFr9YuJOSg18fdtB9UfHLrMEp0+LPg2wMPxrgXo7WEfwHyeephPF2/Hg2+WhAU4Vu2TuKFIATyNQ5qQsyNzCBi0VM5bHezwjtabMVeZ3j56XRrNLia90XJ5mpuWEUxMJPKdSZi5Re2tJgg+fMO/wJH8VlDhV9hm3b1KjNAdpM9OsqxEqJGEJUwdvMYtiUdC6KfkhBFYBG4Du1WGo22lQdW1FOaugpx0LrKs8nzzpp8G6cpUQQVpOv2Nnjd0FP7PMB+pb7PNk0wU/W3AOXIQ+WAf5ntz4xJ9d8NJ6cZplOrBXYoR/Smewwmx5Z3afm8zpfootJ+kKCxMikZaJwOZ4dPwkpHh9c88vFbX04i0Nm41VEJWxZEFMBaLGbTV9CCYjS10Qw=
